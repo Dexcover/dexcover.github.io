@@ -1,0 +1,112 @@
+<div class="row " style="margin-top: 10px">
+
+    <!--Se muestra en dos diviciones logo y slogan para dispositivos pequeños-->
+    <div class="row visible-xs-block">
+        <div class="col-xs-12 col-sm-12">
+            <a ng="/"><img src="{{IMG_PATH}}" class="img-responsive img-logo" alt="Logo principal first"></a>
+        </div>
+        <!--Se muestra en dispositivos pequeños -->
+        <div class="col-xs-12 text-center col-sm-12">
+            <span class="f-s">{{slogan}}</span>
+        </div>
+    </div>
+
+    <!-- FIn de División-->
+
+    <div class="row" style="margin-left: 5px">
+        <div class="col-md-2 visible-sm-block visible-md-block visible-lg-block">
+            <a href="/"><img src="{{IMG_PATH}}" class="img-responsive img-logo" alt="Logo principal second"></a>
+        </div>
+        <div class="visible-sm-block visible-md-block visible-lg-block  col-sm-12 col-md-7 text-center f-s"> {{slogan}}
+
+            <ul class='nav nav-pills nav-justified'>
+                <li role='presentation' class='f-mn-ma '>
+                    <a [routerLink]="['/']">{{initial}}</a>
+                </li>
+                <li role='presentation' class='f-mn-ma '>
+                    <a [routerLink]="['/']">{{profesionalProfile}}</a>
+                </li>
+                <li role='presentation' class='f-mn-ma '>
+                    <a [routerLink]="['/']">{{galery}}</a>
+                </li>
+                <li role='presentation' class='f-mn-ma '>
+                    <a [routerLink]="['/']">{{moments}}</a>
+                </li>
+            </ul>
+
+        </div>
+
+        <!--atajoss rapidos de la página -->
+
+        <div class="col-md-3 col-sm-12">
+            <h6 class="text-left">
+                    <span class="glyphicon glyphicon-home" aria-hidden="true">
+                    </span>
+                    Solo estudiantes (<a href="home/sistema" style="text-decoration: underline;">Iniciar</a>)
+             </h6 >
+
+              <h6 class="text-left">
+                    <span class="glyphicon glyphicon-earphone" aria-hidden="true">
+                    </span>
+                    <strong>
+                    Telf:
+                    </strong>
+                    <a>+59398322xxxx</a>
+              </h6>
+            <h6 class="text-left">
+                    <span class="glyphicon glyphicon-envelope" aria-hidden="true">
+                    </span>
+                    <strong>
+                    Email::
+                    </strong>
+                    <a>-----@------.com</a>
+              </h6>
+        </div>
+
+    </div>
+
+    <!--Visible en dispositivos pequeños-->
+    <div class="row visible-xs-block ">
+        <nav class="navbar navbar-default">
+            <div style="padding-right: 0px">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <span class="navbar-brand f-mn-ma">Menu</span>
+
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class='nav nav-pills nav-justified'>
+                        <li role='presentation' class='f-mn-ma '>
+                            <a [routerLink]="['/']">{{initial}}</a>
+                        </li>
+                        <li role='presentation' class='f-mn-ma '>
+                            <a [routerLink]="['/']">{{profesionalProfile}}</a>
+                        </li>
+                        <li role='presentation' class='f-mn-ma '>
+                            <a [routerLink]="['/']">{{galery}}</a>
+                        </li>
+                        <li role='presentation' class='f-mn-ma '>
+                            <a [routerLink]="['/']">{{moments}}</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+    </div>
+
+    <!--Pequeño separador -->
+    <div class="row visible-sm-block visible-md-block visible-lg-block" style="background-color: rgba(238, 238, 238, 0.8); padding-top: 3px; margin-bottom: 10px">
+
+    </div>
