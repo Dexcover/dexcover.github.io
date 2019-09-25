@@ -27,9 +27,15 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.sass"
+              "src/styles.sass",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/mycss.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "node_modules/bootstrap/js/dropdown.js"
+            ],
             "es5BrowserSupport": true
           },
           "configurations": {

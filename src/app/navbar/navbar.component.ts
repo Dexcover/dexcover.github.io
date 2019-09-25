@@ -7,13 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
   
-  private slogan:string = 'Bienvenidos Todos, ¡sin zapatos por favor!';
-  private initial:string = 'Inicio';
-  private profesionalProfile:string = 'Perfil Porfesional';
-  private galery:string = 'Galeria';
-  private moments:string = 'Momentos';
+  public slogan:string = 'Bienvenidos Todos, ¡sin zapatos por favor!';
+  public initial:string = 'Inicio';
+  public profesionalProfile:string = 'Perfil Porfesional';
+  public galery:string = 'Galeria';
+  public moments:string = 'Momentos';
 
-  private IMG_PATH:string = 'assets/imgs/logo.jpg';
+  public IMG_PATH:string = 'assets/imgs/logo.jpg';
 
   constructor() { }
 

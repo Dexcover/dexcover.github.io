@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  private videoDescription:string = 'Aplica el patrón strategy en una autenticación de usuarios utilizando interfaz gráfica en Java8.';
+  public videoDescription:string = 'Utiliza el patrón de diseño Strategy para realizar una autenticación con redes sociales. Además utilizamos lo nuevo de la libreria date de Java 8.  ';
 
   constructor() { }
 
